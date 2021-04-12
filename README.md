@@ -1,2 +1,4 @@
 # owoify
-I made this so now you get to see it
+I made this as a tiny program to convert an argument to OwO speak.
+
+"Hello" -> "Hewllo Owo"
