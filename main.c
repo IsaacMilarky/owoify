@@ -8,7 +8,7 @@
  */ 
 
 #define STRING_BUFFER 100
-const char * ERR_GENERAL = "Oopsie woopsie you made a fucky wucky!! A wittle fucko boingo!\n";
+const char * ERR_GENERAL = "String could not be parsed.\n";
 
 int main(int argc, char* argsv[])
 {
@@ -18,7 +18,7 @@ int main(int argc, char* argsv[])
 		return -1;
 	}
 
-	char * THE_QUOTE = "Epstein didn't kill himself.";
+	char * THE_QUOTE = "Default value detected.";
 	char * str = !argsv[1] ? THE_QUOTE : argsv[1];
 
 	char * toReturn = malloc(sizeof(char) * STRING_BUFFER);			
